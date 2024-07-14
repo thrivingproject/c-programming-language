@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile C Code",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasename}.out",
+                "-g",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Compiler task."
+        }
+    ]
+}
