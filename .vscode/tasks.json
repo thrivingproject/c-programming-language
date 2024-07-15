@@ -8,7 +8,7 @@
             "args": [
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasename}.out",
+                "${fileDirname}/${fileBasenameNoExtension}.out",
                 "-g",
             ],
             "group": {

@@ -8,7 +8,7 @@
             "name": "Launch with CodeLLDB",
             "type": "lldb",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasename}.out",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
             "args": [],
             // "stopAtEntry": false,
             "cwd": "${fileDirname}",
